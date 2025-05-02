@@ -126,6 +126,6 @@ class Model:
             "--driven_audio", str(mp3_path),
         ]
 
-        subprocess.run(cmd, cwd="SadTalker", env=os.environ.copy())
+        subprocess.run(cmd, cwd="SadTalker1", env=os.environ.copy())
 
         os.startfile(os.path.abspath("videos/output.mp4"))
